@@ -3,84 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="業種別のホームページ制作サンプルをご覧いただけます。" />
-    <meta name="theme-color" content="#15241f" />
-    <title>ホームページ制作サンプル</title>
+    <meta name="description" content="OWL Technologyが制作するWebサイトの業種別デモをご覧いただけます。" />
+    <meta name="theme-color" content="#0757c8" />
+    <title>OWL Web｜Webサイト制作デモ</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="ホームページ制作サンプル トップへ">OWL <span>WEB SAMPLES</span></a>
-      <a class="header-link" href="#works">制作事例を見る</a>
+      <a class="brand" href="#top" aria-label="OWL Technology トップへ">
+        <span class="brand-mark">O</span>
+        <span class="brand-name">OWL Technology</span>
+      </a>
+      <div class="header-meta"><span>Business Solution Guide</span><b>OWL Web</b></div>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="page-title">
-        <p class="eyebrow">WEB DESIGN PORTFOLIO</p>
-        <h1 id="page-title">あなたのお店らしさを、<br /><em>伝わるWebサイト</em>に。</h1>
-        <p class="lead">店舗・サロン向けに制作したホームページのサンプルをご紹介します。デザインや情報の見せ方を、実際のサイトでご覧ください。</p>
-        <a class="primary-button" href="#works">サンプルを見る <span aria-hidden="true">↓</span></a>
+        <div class="hero-copy">
+          <p class="section-label">OWL WEB / DEMO COLLECTION</p>
+          <h1 id="page-title">Webサイト制作<br /><span>デモギャラリー</span></h1>
+          <p class="lead">業種やサービスの魅力が伝わる構成、スマートフォンでの見やすさ、問い合わせにつながる導線を、実際の制作サンプルでご確認いただけます。</p>
+        </div>
+        <div class="hero-panel" aria-label="OWL Webの対応内容">
+          <div class="panel-top"><span>OWL Web</span><b>01 / SERVICE</b></div>
+          <p>Webサイト制作</p>
+          <ul>
+            <li>コーポレートサイト</li>
+            <li>採用サイト</li>
+            <li>ランディングページ</li>
+            <li>スマホ対応</li>
+            <li>お問い合わせフォーム</li>
+          </ul>
+        </div>
       </section>
 
-      <section class="works" id="works" aria-labelledby="works-title">
+      <section class="intro" aria-label="デモサイトのご案内">
+        <p><span>ABOUT THIS PAGE</span>営業資料でご紹介している「OWL Web」の制作イメージをご覧いただくためのデモページです。</p>
+        <a href="#demos">View demos <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="demos" id="demos" aria-labelledby="demos-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">SELECTED WORKS</p>
-            <h2 id="works-title">制作サンプル</h2>
+            <p class="section-label">SELECTED DEMOS</p>
+            <h2 id="demos-title">制作サンプル</h2>
           </div>
-          <p>各カードから公開中のサイトを別タブでご覧いただけます。</p>
+          <p>業種ごとに情報設計とデザインの方向性を変えています。<br />クリックすると実際のサイトが開きます。</p>
         </div>
 
-        <div class="card-grid">
-          <a class="work-card card-salon" href="https://owl-portalsupport.github.io/restoration-salon/" target="_blank" rel="noopener noreferrer">
-            <span class="card-number">01</span>
-            <div class="card-art" aria-hidden="true"><span>RELAXATION</span></div>
-            <div class="card-content">
-              <p>HEALTH &amp; WELLNESS</p>
-              <h3>整体・リラクゼーションサロン</h3>
-              <span class="view-link">サイトを見る <b aria-hidden="true">↗</b></span>
+        <div class="demo-list">
+          <a class="demo-card" href="https://owl-portalsupport.github.io/restoration-salon/" target="_blank" rel="noopener noreferrer">
+            <div class="browser-preview preview-wellness">
+              <div class="browser-bar"><i></i><i></i><i></i><span>restoration-salon</span></div>
+              <div class="mock-page"><small>RESTORATION SALON</small><strong>心と身体を、<br />本来のリズムへ。</strong><span>Wellness &amp; Relaxation</span></div>
             </div>
+            <div class="demo-info"><span class="demo-no">01</span><div><p>HEALTH &amp; WELLNESS</p><h3>整体・リラクゼーションサロン</h3></div><b aria-label="サイトを開く">↗</b></div>
           </a>
 
-          <a class="work-card card-flower" href="https://owl-portalsupport.github.io/fleur-note/" target="_blank" rel="noopener noreferrer">
-            <span class="card-number">02</span>
-            <div class="card-art" aria-hidden="true"><span>FLOWER SHOP</span></div>
-            <div class="card-content">
-              <p>FLOWER &amp; GIFT</p>
-              <h3>フラワーショップ</h3>
-              <span class="view-link">サイトを見る <b aria-hidden="true">↗</b></span>
+          <a class="demo-card" href="https://owl-portalsupport.github.io/fleur-note/" target="_blank" rel="noopener noreferrer">
+            <div class="browser-preview preview-flower">
+              <div class="browser-bar"><i></i><i></i><i></i><span>fleur-note</span></div>
+              <div class="mock-page"><small>FLEUR NOTE</small><strong>日々に寄り添う、<br />一輪の物語。</strong><span>Flower &amp; Botanical</span></div>
             </div>
+            <div class="demo-info"><span class="demo-no">02</span><div><p>FLOWER &amp; GIFT</p><h3>フラワーショップ</h3></div><b aria-label="サイトを開く">↗</b></div>
           </a>
 
-          <a class="work-card card-cafe" href="https://OWL-PortalSupport.github.io/cafe-liora/" target="_blank" rel="noopener noreferrer">
-            <span class="card-number">03</span>
-            <div class="card-art" aria-hidden="true"><span>BAKERY CAFE</span></div>
-            <div class="card-content">
-              <p>FOOD &amp; CAFE</p>
-              <h3>ベーカリーカフェ</h3>
-              <span class="view-link">サイトを見る <b aria-hidden="true">↗</b></span>
+          <a class="demo-card" href="https://OWL-PortalSupport.github.io/cafe-liora/" target="_blank" rel="noopener noreferrer">
+            <div class="browser-preview preview-cafe">
+              <div class="browser-bar"><i></i><i></i><i></i><span>cafe-liora</span></div>
+              <div class="mock-page"><small>CAFE LIORA</small><strong>焼きたての香りと、<br />やさしい時間。</strong><span>Bakery &amp; Cafe</span></div>
             </div>
+            <div class="demo-info"><span class="demo-no">03</span><div><p>FOOD &amp; CAFE</p><h3>ベーカリーカフェ</h3></div><b aria-label="サイトを開く">↗</b></div>
           </a>
 
-          <a class="work-card card-hair" href="https://owl-portalsupport.github.io/lino-hair-salon/" target="_blank" rel="noopener noreferrer">
-            <span class="card-number">04</span>
-            <div class="card-art" aria-hidden="true"><span>HAIR SALON</span></div>
-            <div class="card-content">
-              <p>BEAUTY &amp; HAIR</p>
-              <h3>美容室</h3>
-              <span class="view-link">サイトを見る <b aria-hidden="true">↗</b></span>
+          <a class="demo-card" href="https://owl-portalsupport.github.io/lino-hair-salon/" target="_blank" rel="noopener noreferrer">
+            <div class="browser-preview preview-hair">
+              <div class="browser-bar"><i></i><i></i><i></i><span>lino-hair-salon</span></div>
+              <div class="mock-page"><small>LINO HAIR SALON</small><strong>あなたらしさを、<br />美しく整える。</strong><span>Hair &amp; Beauty</span></div>
             </div>
+            <div class="demo-info"><span class="demo-no">04</span><div><p>BEAUTY &amp; HAIR</p><h3>美容室</h3></div><b aria-label="サイトを開く">↗</b></div>
           </a>
         </div>
+      </section>
+
+      <section class="closing">
+        <p class="section-label">OWL TECHNOLOGY</p>
+        <h2>知識と技術を<br /><span>より自由に。</span></h2>
+        <p>目的やご予算に合わせて、必要な機能とデザインをご提案します。</p>
       </section>
     </main>
 
-    <footer>
-      <p>OWL WEB SAMPLES</p>
-      <small>&copy; 2026 OWL. All rights reserved.</small>
-    </footer>
+    <footer><span>OWL Technology</span><small>&copy; 2026 OWL Technology</small></footer>
   </body>
 </html>

@@ -85,7 +85,7 @@ footer span { font-weight:700; } footer small { color:rgba(255,255,255,.55); fon
 .flow-demo { padding-top:132px; padding-bottom:138px; position:relative; isolation:isolate; }
 .demos { padding-top:132px; padding-bottom:142px; position:relative; isolation:isolate; overflow:hidden; background:linear-gradient(135deg,#e8e9ea,#f8f8f7); }
 .product-demo::before,.forms-demo::before,.flow-demo::before,.demos::before { position:absolute; z-index:-1; color:rgba(75,76,80,.055); font:600 clamp(8rem,16vw,15rem)/1 "Bodoni Moda",serif; letter-spacing:-.08em; pointer-events:none; }
-.product-demo::before { content:"01"; right:-.02em; top:.16em; }.forms-demo::before { content:"02"; left:max(20px,calc((100% - 1240px)/2)); top:.1em; color:rgba(255,255,255,.045); }.flow-demo::before { content:"03"; right:-.02em; top:.12em; }.demos::before { content:"04"; right:max(20px,calc((100% - 1240px)/2)); top:.1em; }
+.product-demo::before { content:"03"; right:-.02em; top:.16em; }.forms-demo::before { content:"01"; left:max(20px,calc((100% - 1240px)/2)); top:.1em; color:rgba(255,255,255,.045); }.flow-demo::before { content:"02"; right:-.02em; top:.12em; }.demos::before { content:"04"; right:max(20px,calc((100% - 1240px)/2)); top:.1em; }
 .js .reveal { opacity:0; transform:translateY(34px); transition:opacity .8s ease,transform .8s cubic-bezier(.2,.75,.25,1); }.js .reveal.is-visible { opacity:1; transform:none; }.js .reveal-delay { transition-delay:.14s; }
 @keyframes heroPanelIn { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:none; } }
 @keyframes heroTextIn { from { opacity:0; transform:translateY(30px); filter:blur(4px); } to { opacity:1; transform:none; filter:none; } }
